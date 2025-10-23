@@ -1,23 +1,20 @@
-# Lab 3 Complete a Web API -- Project Report
+# Lab 3: Complete a Web API — Project Report
 
 ## Description of Changes
-[Detailed description of all changes made]
-
-## Technical Decisions
-[Explanation of technical choices made]
+For each test, a **SETUP** section was added to configure the mock behavior, and a **VERIFY** section was included to 
+ensure that only the expected methods were executed, and that they were invoked the correct number of times.
 
 ## Learning Outcomes
-[What you learned from this assignment]
+This work demonstrates a clean and professional structure for simulating endpoint behavior while verifying the precise 
+number of method calls within the application. It highlights the importance of test design that accurately reflects REST
+semantics such as safety and idempotency.
 
 ## AI Disclosure
 ### AI Tools Used
-- [List specific AI tools used]
+- ChatGPT
 
 ### AI-Assisted Work
-- [Describe what was generated with AI assistance]
-- [Percentage of AI-assisted vs. original work]
-- [Any modifications made to AI-generated code]
+- Translation and style refinement of this report.
 
 ### Original Work
-- [Describe work done without AI assistance]
-- [Your understanding and learning process]
+- All the practice code and test implementations were entirely original.
